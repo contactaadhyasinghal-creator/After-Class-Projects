@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    background-image: linear-gradient(to bottom, pink, navy, purple);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, sans-serif;
+}
+
+.🍎😋Restaurant-header {
+    text-transform: capitalize;
+    color: blueviolet;
+    text-shadow: 1px 1px aqua;
+}
+
+.tagline {
+    font-weight: bolder;
+    font-family: cursive;
+    color: aqua;
+}
+
+.menu {
+    text-decoration: underline;
+}
+
+.yay {
+    text-shadow: 2px 2px orange;
+    color: yellow;
+    display: inline-block; rotate: -1deg;
+    align-content: center;
+}
