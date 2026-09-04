@@ -1,6 +1,6 @@
 body {
-    background-color: beige;
-    background-image: linear-gradient(to bottom, pink, navy, purple);
+    background-color: pink;
+    background-image: linear-gradient(to top, pink, navy, purple);
     background-repeat: no-repeat;
     background-position: top center;
     font-family: Arial, sans-serif;
@@ -8,8 +8,9 @@ body {
 
 .🍎😋Restaurant-header {
     text-transform: capitalize;
-    color: blueviolet;
-    text-shadow: 1px 1px aqua;
+    color: yellow;
+    text-shadow: 1px 1px orange;
+    font-size: 100px;
 }
 
 .tagline {
@@ -23,8 +24,20 @@ body {
 }
 
 .yay {
-    text-shadow: 2px 2px orange;
-    color: yellow;
+    color: darkblue;
+    text-shadow: 2px 2px aqua;
     display: inline-block; rotate: -1deg;
     align-content: center;
+}
+
+/* Element Selector */
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    color: bisque;
 }
