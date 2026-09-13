@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>😺Animal Rescue Page😺</title>
+
+    <style>
+        body {
+            background-color: #FFD51E;
+            min-height: 1800px;
+            font-family: Arial, cursive;
+            padding-top: 50px;
+            margin: 0;
+        }
+
+        h2, h1 {
+            color: #FF467A;
+            text-align: left;
+            background-color: #5003C0;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            margin: 0;
+            padding: 8px;
+
+            background-color: #AB03A9;
+            color: #FF467A;
+
+            z-index: 1000;
+        }
+
+        .warning {
+            text-align: left;
+        }
+
+        .animal-static1 {
+            position: static;
+            border: ridge;
+            border-radius: 15px;
+            background-color: #FF467A;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 230px;
+        }
+
+        .rescued-animals {
+            border: ridge;
+            border-radius: 15px;
+            background-color: #FF467A;
+            font-size: 25px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 230px;
+        }
+
+        .rescued-animals1 {
+            position: relative;
+            left: 35px;
+            border: ridge;
+            border-radius: 15px;
+            background-color: #AB03A9;
+            font-size: 25px;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            width: 230px;
+        }
+
+        .animal-card {
+            position: relative;
+            background: white;
+            border: 2px solid #52b788;
+            border-radius: 10px;
+            padding: 50px;
+            width: 230px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .tag {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: #FF467A;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 20px;
+        }
+
+        .rescuezone {
+            position: sticky;
+            top: 55px;
+
+            z-index: 500;
+
+            padding: 8px;
+        }
+
+        .rescued-animals2 {
+            background-color: white;
+            border: 2px solid darkorange;
+            border-radius: 15px;
+            padding: 10px 20px;
+            margin: 8px 0;
+            width: 230px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 class="fixed">Animal Rescue Alert | Fixed</h2>
+
+    <p class="warning">This heading remains fixed!</p>
+
+    <h1>Zoo Rescue Tracker</h1>
+
+    <h1>Static Positioning</h1>
+    <p>Static position remains same and appear vertically.</p>
+
+    <div class="animal-static1">Lion - Resting Zone</div>
+    <div class="animal-static1">Elephant - Water Zone</div>
+    <div class="animal-static1">Penguin - Ice Zone</div>
+
+    <h1>Relative Positioning</h1>
+    <p>The rescued animal entry moves slightly using left: 35px.</p>
+
+    <div class="rescued-animals">Giraffe - Checkup pending</div>
+    <div class="rescued-animals1">Rescued Koala - Safe</div>
+    <div class="rescued-animals">Zebra - Feeding Zone</div>
+
+    <h1>Absolute Positioning</h1>
+    <p>The Safe label is on the top of the animal label.</p>
+
+    <div class="animal-card">
+        <div class="tag">SAFE!</div>
+
+        Panda <br>
+        Medical Check Complete
+    </div>
+
+    <h1>Sticky Positioning</h1>
+    <p>The Rescued cases stick at the top as you scroll.</p>
+
+    <h1 class="rescuezone">Rescue Zone Cases - Sticky</h1>
+
+    <div class="rescued-animals2">Tiger - Observation</div>
+    <div class="rescued-animals2">Deer - Released</div>
+    <div class="rescued-animals2">Owl - Night Care</div>
+    <div class="rescued-animals2">Turtle - Shell Treatment</div>
+    <div class="rescued-animals2">Rabbit - Healthy</div>
+    <div class="rescued-animals2">Flamingo - Wing Check</div>
+    <div class="rescued-animals2">Monkey - Play Area</div>
+    <div class="rescued-animals2">Horse - Recovery Stable</div>
+
+</body>
+</html>
